@@ -1,0 +1,7 @@
+pypdf
+python-slugify
+azure-identity
+requests
+python-dotenv
+msal
+pandas
