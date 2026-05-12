@@ -38,17 +38,4 @@ document — preserving layout, tables, headers, and formatting.
 | `TargetStorageURI` | string | *(Optional)* Azure Blob target container URL |
 | `CategoryOverride` | string | *(Optional)* Custom translator category (e.g. ICSID model) |
 
-### Authentication
-
-Azure AD service principal via `azure-identity`.
-Secrets are stored in Databricks Secret scope `DAPGPTKEYVAULT`.
-
-| Secret key | Description |
-|---|---|
-| `WBG-Translate-Tenant-ID` | Azure AD tenant ID |
-| `WBG-Translate-Client-ID` | Service principal client ID |
-| `WBG-Translate-Client-Secret` | Service principal client secret |
-
-> **Note:** The Client ID and Scope for the Dev environment are hardcoded
-> below as constants since they are non-sensitive identifiers, not secrets.
  
